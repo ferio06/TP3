@@ -1,5 +1,5 @@
 # TP3
-D'abord il faut commence par importer nos fichier, et pour cela on va commencer par créer les répertoires par les commandes suivantes :
+D'abord il faut commencer par importer nos fichier depuis repertoir du site github, et pour cela on va commencer par créer les répertoires par les commandes suivantes :
 ```
 mkdir catkin_ws
 cd catkin_ws
@@ -26,7 +26,7 @@ Pour cela on lance la commande :
 ```
 roslaunch udm_hand_moveit_configs demo.launch
 ```
-On laisse le service se lancer puis on ouvre un autre terminale dans le même dossier catkin_ws pour lancer le service pour le package udm_hand_control pour contrôler les mouvents de la main robot par cinematique direct et indirect par les commandes :
+On laisse le service se lancer puis on ouvre un autre terminale dans le même dossier catkin_ws afin de lancer le service pour le package udm_hand_control pour le contrôl des mouvents de la main robot par cinematique direct et indirect que l'on lancera à partir des commandes :
 ```
 roslaunch udm_hand_control direct.launch
 ```
